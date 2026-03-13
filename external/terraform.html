@@ -114,7 +114,7 @@ resource &quot;dnsimple_record&quot; &quot;hello&quot; {
 <span class="nb">export </span><span class="nv">TF_VAR_DNSIMPLE_EMAIL</span><span class="o">=</span>...
 epxort <span class="nv">TF_VAR_DNSIMPLE_TOKEN</span><span class="o">=</span>...
 </code></pre></div>
-<p>Создадим файл <code>provider.tf</code> (имя файла естественно может быть любым <img class='emoji' title=':smile:' alt=':smile:' src='https://assets.github.com/images/icons/emoji/unicode/1f604.png' height='20' width='20' align='absmiddle' />) с необходимыми настройками:</p>
+<p>Создадим файл <code>provider.tf</code> (имя файла естественно может быть любым <img class='emoji' title=':smile:' alt=':smile:' src='/images/72x72/1f604.png' height='20' width='20' align='absmiddle' />) с необходимыми настройками:</p>
 <div class="highlight"><pre><code class="language-text" data-lang="text">provider &quot;openstack&quot; {
   domain_name = &quot;${var.SELECTEL_ACCOUNT}&quot;
   auth_url  = &quot;https://api.selvpc.ru/identity/v3&quot;
