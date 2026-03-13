@@ -32,16 +32,8 @@
     </script>
   </head>
 
-  <body onorientationchange="if(DISQUS) DISQUS.reset({reload: true});">
-    <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-    <div class="wrapper-masthead">
+  <body>
+<div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
           <a href="/" class="site-avatar"><img src="https://secure.gravatar.com/avatar/54e74983d81fa2fbe4c28e8392532f18" /></a>
@@ -91,15 +83,7 @@
 вся изменяемая часть всегда собирается в главном объекте. Он из-за этого распухает,
 но все равно мне кажется, что код на React.js
 гораздо легче писать и поддерживать, чем аналогичное решение, допустим, на jQuery.</p>
-
-        
-        <small><div style="float:right;font-size:85%;"><a href="/blog/2014/11/27/react-todo/index.html#disqus_thread">0 Comments</a></div></small>
-        
-        
-
-        <div class="fb-share-button" data-href="/blog/2014/11/27/react-todo/index.html" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php">Поделиться</a></div><a href="https://twitter.com/intent/tweet?text=%D0%93%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80+%D0%B2%D0%BA%D1%83%D1%81%D0%BD%D1%8B%D1%85+%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D0%BE%D0%B2+%D0%BD%D0%B0+React.js&url=avakhov.github.io%2Fblog%2F2014%2F11%2F27%2Freact-todo%2Findex.html" class="twitter-share-button">Tweet</a><style>.twitter-share-button{position:relative !important;left:10px;top:6px}</style>
-        
-      </div>
+</div>
     </article>
   
     <article class="post">    
@@ -150,15 +134,7 @@
     <span class="k">end</span>
 </code></pre></div>
 <p>Отлично, теперь можно спать спокойно.</p>
-
-        
-        <small><div style="float:right;font-size:85%;"><a href="/blog/2014/11/24/be_rspec/index.html#disqus_thread">0 Comments</a></div></small>
-        
-        
-
-        <div class="fb-share-button" data-href="/blog/2014/11/24/be_rspec/index.html" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php">Поделиться</a></div><a href="https://twitter.com/intent/tweet?text=%D0%9A%D0%B0%D0%BA+%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B5%D1%82+be_some+%D0%B2+RSpec%3F&url=avakhov.github.io%2Fblog%2F2014%2F11%2F24%2Fbe_rspec%2Findex.html" class="twitter-share-button">Tweet</a><style>.twitter-share-button{position:relative !important;left:10px;top:6px}</style>
-        
-      </div>
+</div>
     </article>
   
     <article class="post">    
@@ -193,15 +169,7 @@
 <span class="mi">4</span><span class="o">.</span><span class="n">in?</span><span class="p">(</span><span class="n">array</span><span class="p">)</span>       <span class="c1"># =&gt;  false</span>
 </code></pre></div>
 <p>На один неправильный вариант использования <code>find</code>, есть много правильных.</p>
-
-        
-        <small><div style="float:right;font-size:85%;"><a href="/blog/2014/11/20/array_find/index.html#disqus_thread">0 Comments</a></div></small>
-        
-        
-
-        <div class="fb-share-button" data-href="/blog/2014/11/20/array_find/index.html" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php">Поделиться</a></div><a href="https://twitter.com/intent/tweet?text=%D0%9D%D0%B5%D0%B2%D0%B5%D0%B4%D0%BE%D0%BC%D1%8B%D0%B9+Array%23find&url=avakhov.github.io%2Fblog%2F2014%2F11%2F20%2Farray_find%2Findex.html" class="twitter-share-button">Tweet</a><style>.twitter-share-button{position:relative !important;left:10px;top:6px}</style>
-        
-      </div>
+</div>
     </article>
   
     <article class="post">    
@@ -271,15 +239,7 @@ SQL: ALTER TABLE &quot;users&quot; ADD COLUMN &quot;surname&quot; character vary
 
 <p>Метод <code>#reset_column_information</code> сам по себе хороший, но шаблон использования, который он
 предлагает, может испортить выкатку на Хероку. Поэтому я больше не меняю схему и данные в одной транзакции.</p>
-
-        
-        <small><div style="float:right;font-size:85%;"><a href="/blog/2014/11/17/long-death-migtations/index.html#disqus_thread">0 Comments</a></div></small>
-        
-        
-
-        <div class="fb-share-button" data-href="/blog/2014/11/17/long-death-migtations/index.html" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php">Поделиться</a></div><a href="https://twitter.com/intent/tweet?text=%D0%9F%D0%BE%D1%87%D0%B5%D0%BC%D1%83+%D1%8F+%D0%BD%D0%B5+%D0%BC%D0%B5%D0%BD%D1%8F%D1%8E+%D1%81%D1%85%D0%B5%D0%BC%D1%83+%D0%B8+%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5+%D0%B2+%D0%BE%D0%B4%D0%BD%D0%BE%D0%B9+%D0%BC%D0%B8%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D0%B8&url=avakhov.github.io%2Fblog%2F2014%2F11%2F17%2Flong-death-migtations%2Findex.html" class="twitter-share-button">Tweet</a><style>.twitter-share-button{position:relative !important;left:10px;top:6px}</style>
-        
-      </div>
+</div>
     </article>
   
     <article class="post">    
@@ -300,15 +260,7 @@ SQL: ALTER TABLE &quot;users&quot; ADD COLUMN &quot;surname&quot; character vary
 <p>Не помню где этот рецепт подсмотрел, но теперь скролл на телефоне отличный.</p>
 
 <p><img src="/assets/disqus-orient/ip.png" alt=""></p>
-
-        
-        <small><div style="float:right;font-size:85%;"><a href="/blog/2014/11/13/disqus-orient/index.html#disqus_thread">0 Comments</a></div></small>
-        
-        
-
-        <div class="fb-share-button" data-href="/blog/2014/11/13/disqus-orient/index.html" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php">Поделиться</a></div><a href="https://twitter.com/intent/tweet?text=%D0%9A%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B8+%D0%94%D0%B8%D1%81%D0%BA%D1%83%D1%81%D0%B0+%D0%BD%D0%B0+%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D0%B5&url=avakhov.github.io%2Fblog%2F2014%2F11%2F13%2Fdisqus-orient%2Findex.html" class="twitter-share-button">Tweet</a><style>.twitter-share-button{position:relative !important;left:10px;top:6px}</style>
-        
-      </div>
+</div>
     </article>
   
     <article class="post">    
@@ -356,15 +308,7 @@ SQL: ALTER TABLE &quot;users&quot; ADD COLUMN &quot;surname&quot; character vary
 <span class="k">end</span>
 </code></pre></div>
 <p>Теперь файл <code>config.ru</code>, который лежит в корне каждого Рейлс проекта, больше не вызывает у меня вопросов.</p>
-
-        
-        <small><div style="float:right;font-size:85%;"><a href="/blog/2014/11/10/rackup-ru/index.html#disqus_thread">0 Comments</a></div></small>
-        
-        
-
-        <div class="fb-share-button" data-href="/blog/2014/11/10/rackup-ru/index.html" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php">Поделиться</a></div><a href="https://twitter.com/intent/tweet?text=%D0%A7%D1%82%D0%BE+%D0%BE%D0%B7%D0%BD%D0%B0%D1%87%D0%B0%D0%B5%D1%82+%D1%80%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%B8%D0%B5+.ru+%D0%B4%D0%BB%D1%8F+%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D0%B0+rack-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F&url=avakhov.github.io%2Fblog%2F2014%2F11%2F10%2Frackup-ru%2Findex.html" class="twitter-share-button">Tweet</a><style>.twitter-share-button{position:relative !important;left:10px;top:6px}</style>
-        
-      </div>
+</div>
     </article>
   
     <article class="post">    
@@ -409,15 +353,7 @@ SQL: ALTER TABLE &quot;users&quot; ADD COLUMN &quot;surname&quot; character vary
 <p><img src="/assets/pretty-bash-prompt/ps.png" alt=""></p>
 
 <p>Симпатично.</p>
-
-        
-        <small><div style="float:right;font-size:85%;"><a href="/blog/2014/11/06/pretty-bash-prompt/index.html#disqus_thread">0 Comments</a></div></small>
-        
-        
-
-        <div class="fb-share-button" data-href="/blog/2014/11/06/pretty-bash-prompt/index.html" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php">Поделиться</a></div><a href="https://twitter.com/intent/tweet?text=Bash+Prompt%2C+%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9+%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B5%D0%BC&url=avakhov.github.io%2Fblog%2F2014%2F11%2F06%2Fpretty-bash-prompt%2Findex.html" class="twitter-share-button">Tweet</a><style>.twitter-share-button{position:relative !important;left:10px;top:6px}</style>
-        
-      </div>
+</div>
     </article>
   
     <article class="post">    
@@ -496,15 +432,7 @@ SQL: ALTER TABLE &quot;users&quot; ADD COLUMN &quot;surname&quot; character vary
 <p>Сервисными объектами легко думать. Когда я вижу запись
 <code>AuthenticateUser.call(cookies, @user)</code>, сразу догадываюсь, что это сервисный объект,
 у которого одна единственная обязанность - логинить пользователя. Не заглядывая в код ясно, что там все в порядке.</p>
-
-        
-        <small><div style="float:right;font-size:85%;"><a href="/blog/2014/10/30/oaas/index.html#disqus_thread">0 Comments</a></div></small>
-        
-        
-
-        <div class="fb-share-button" data-href="/blog/2014/10/30/oaas/index.html" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php">Поделиться</a></div><a href="https://twitter.com/intent/tweet?text=Object+as+a+Service&url=avakhov.github.io%2Fblog%2F2014%2F10%2F30%2Foaas%2Findex.html" class="twitter-share-button">Tweet</a><style>.twitter-share-button{position:relative !important;left:10px;top:6px}</style>
-        
-      </div>
+</div>
     </article>
   
     <article class="post">    
@@ -539,15 +467,7 @@ SQL: ALTER TABLE &quot;users&quot; ADD COLUMN &quot;surname&quot; character vary
 <p><img src="/assets/record-lock/rails.png" alt=""></p>
 
 <p>Как и в любой хорошем приеме, здесь нужна мера. Если блокировать базу часто и надолго, то производительность упадет сильно.</p>
-
-        
-        <small><div style="float:right;font-size:85%;"><a href="/blog/2014/10/27/record-lock/index.html#disqus_thread">0 Comments</a></div></small>
-        
-        
-
-        <div class="fb-share-button" data-href="/blog/2014/10/27/record-lock/index.html" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php">Поделиться</a></div><a href="https://twitter.com/intent/tweet?text=%D0%9B%D0%BE%D0%BA+%D0%BD%D0%B0+%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C&url=avakhov.github.io%2Fblog%2F2014%2F10%2F27%2Frecord-lock%2Findex.html" class="twitter-share-button">Tweet</a><style>.twitter-share-button{position:relative !important;left:10px;top:6px}</style>
-        
-      </div>
+</div>
     </article>
   
     <article class="post">    
@@ -595,15 +515,7 @@ SQL: ALTER TABLE &quot;users&quot; ADD COLUMN &quot;surname&quot; character vary
 <span class="cp">&lt;div&gt;Hello!&lt;/div&gt;</span>
 </code></pre></div>
 <p>Снимаю шляпу перед очередной экзотической штучкой мира руби.</p>
-
-        
-        <small><div style="float:right;font-size:85%;"><a href="/blog/2014/10/23/sinatra-embed-views/index.html#disqus_thread">0 Comments</a></div></small>
-        
-        
-
-        <div class="fb-share-button" data-href="/blog/2014/10/23/sinatra-embed-views/index.html" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php">Поделиться</a></div><a href="https://twitter.com/intent/tweet?text=%D0%A1%D0%B8%D0%BD%D0%B0%D1%82%D1%80%D0%B0+%D0%B8%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD-%D1%82%D0%B5%D0%BC%D0%BF%D0%BB%D0%B5%D0%B9%D1%82%D1%8B&url=avakhov.github.io%2Fblog%2F2014%2F10%2F23%2Fsinatra-embed-views%2Findex.html" class="twitter-share-button">Tweet</a><style>.twitter-share-button{position:relative !important;left:10px;top:6px}</style>
-        
-      </div>
+</div>
     </article>
   
 </div>
@@ -618,11 +530,7 @@ SQL: ALTER TABLE &quot;users&quot; ADD COLUMN &quot;surname&quot; character vary
     <a href="/page28" class="next">Next</a>
   
 </div>
-
-<script id="dsq-count-scr" src="//vakhov-me.disqus.com/count.js" async></script>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
-    </div>
+</div>
 
     <div class="wrapper-footer">
       <div class="container">
