@@ -21,7 +21,7 @@
       }
       .hero-svg svg {
         width: 100%;
-        max-width: 1600px;
+        max-width: 400px;
         height: auto;
       }
     </style>
@@ -58,25 +58,55 @@
 
     <div id="main" role="main" class="container">
       <div class="hero-svg">
-        <svg viewBox="0 0 800 150" xmlns="http://www.w3.org/2000/svg">
-          <!-- Terminal window -->
-          <rect x="20" y="15" width="760" height="120" rx="6" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <!-- Body -->
+          <ellipse cx="100" cy="130" rx="55" ry="45" fill="#ff9966"/>
 
-          <!-- Window buttons -->
-          <circle cx="38" cy="30" r="5" fill="#ff5f56"/>
-          <circle cx="54" cy="30" r="5" fill="#ffbd2e"/>
-          <circle cx="70" cy="30" r="5" fill="#27ca40"/>
+          <!-- Head -->
+          <circle cx="100" cy="75" r="45" fill="#ff9966"/>
 
-          <!-- Terminal content -->
-          <text x="38" y="58" font-family="monospace" font-size="11" fill="#64d864">$</text>
-          <text x="50" y="58" font-family="monospace" font-size="11" fill="#e0e0e0">echo "Hello, World"</text>
-          <text x="38" y="76" font-family="monospace" font-size="11" fill="#888">Hello, World</text>
+          <!-- Ears -->
+          <polygon points="60,45 45,15 75,35" fill="#ff9966"/>
+          <polygon points="140,45 155,15 125,35" fill="#ff9966"/>
+          <polygon points="62,42 52,22 72,36" fill="#ffb399"/>
+          <polygon points="138,42 148,22 128,36" fill="#ffb399"/>
 
-          <text x="38" y="98" font-family="monospace" font-size="11" fill="#64d864">$</text>
-          <text x="50" y="98" font-family="monospace" font-size="11" fill="#e0e0e0">git commit -m "init"</text>
+          <!-- Eyes -->
+          <ellipse cx="80" cy="70" rx="12" ry="14" fill="#fff"/>
+          <ellipse cx="120" cy="70" rx="12" ry="14" fill="#fff"/>
+          <ellipse cx="82" cy="72" rx="7" ry="9" fill="#4a9c5d"/>
+          <ellipse cx="122" cy="72" rx="7" ry="9" fill="#4a9c5d"/>
+          <ellipse cx="83" cy="71" rx="4" ry="5" fill="#222"/>
+          <ellipse cx="123" cy="71" rx="4" ry="5" fill="#222"/>
+          <circle cx="85" cy="68" r="2" fill="#fff"/>
+          <circle cx="125" cy="68" r="2" fill="#fff"/>
 
-          <text x="38" y="120" font-family="monospace" font-size="11" fill="#64d864">$</text>
-          <rect x="50" y="110" width="6" height="12" fill="#64d864"/>
+          <!-- Nose -->
+          <ellipse cx="100" cy="90" rx="6" ry="5" fill="#ff6b8a"/>
+
+          <!-- Mouth -->
+          <path d="M100 95 Q100 105 90 102" stroke="#994d33" stroke-width="2" fill="none" stroke-linecap="round"/>
+          <path d="M100 95 Q100 105 110 102" stroke="#994d33" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+          <!-- Whiskers -->
+          <line x1="65" y1="85" x2="35" y2="80" stroke="#994d33" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="65" y1="92" x2="35" y2="95" stroke="#994d33" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="135" y1="85" x2="165" y2="80" stroke="#994d33" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="135" y1="92" x2="165" y2="95" stroke="#994d33" stroke-width="1.5" stroke-linecap="round"/>
+
+          <!-- Stripes on forehead -->
+          <path d="M85 50 Q100 45 115 50" stroke="#e67300" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <path d="M90 58 Q100 55 110 58" stroke="#e67300" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+          <!-- Front paws -->
+          <ellipse cx="70" cy="165" rx="15" ry="12" fill="#ff9966"/>
+          <ellipse cx="130" cy="165" rx="15" ry="12" fill="#ff9966"/>
+          <ellipse cx="70" cy="168" rx="10" ry="6" fill="#ffccb3"/>
+          <ellipse cx="130" cy="168" rx="10" ry="6" fill="#ffccb3"/>
+
+          <!-- Tail -->
+          <path d="M155 130 Q180 110 175 80 Q172 60 160 70" stroke="#ff9966" stroke-width="16" fill="none" stroke-linecap="round"/>
+          <path d="M175 80 Q172 60 160 70" stroke="#e67300" stroke-width="16" fill="none" stroke-linecap="round"/>
         </svg>
       </div>
     </div>
